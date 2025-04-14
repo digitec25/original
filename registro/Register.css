@@ -1,11 +1,11 @@
 /* Variables */
 :root {
     --primary-color: #1a1a1a;
-    --secondary-color: #ffd700;
+    --secondary-color: #fff1bb;
     --text-color: #ffffff;
     --input-bg: rgba(255, 255, 255, 0.1);
-    --border-color: #ffd700;
-    --hover-color: #e6b800;
+    --border-color: #fff1bb;
+    --hover-color: #fff1bb;
     --form-width: 480px;
     --header-height: 70px;
     --footer-height: 50px;
@@ -112,7 +112,7 @@ body {
     padding: 2rem;
     border-radius: 10px;
     border: 1px solid var(--secondary-color);
-    box-shadow: 0 0 20px rgba(255, 215, 0, 0.2);
+    box-shadow: 0 0 20px rgba(255, 241, 187, 0.2);
 }
 
 .register-title {
@@ -155,7 +155,7 @@ body {
 .form-group input:focus {
     outline: none;
     border-color: var(--text-color);
-    box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+    box-shadow: 0 0 10px rgba(255, 241, 187, 0.5);
 }
 
 .register-btn, .google-btn {
@@ -177,7 +177,7 @@ body {
 .register-btn:hover {
     background-color: var(--hover-color);
     transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(255, 215, 0, 0.3);
+    box-shadow: 0 4px 8px rgba(255, 241, 187, 0.3);
 }
 
 .google-btn {
@@ -194,7 +194,7 @@ body {
 
 .google-btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(255, 215, 0, 0.3);
+    box-shadow: 0 4px 8px rgba(255, 241, 187, 0.3);
 }
 
 .google-btn img {
